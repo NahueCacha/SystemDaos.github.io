@@ -1,0 +1,228 @@
+
+body{
+    background: #457B9D;
+    color: silver;
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+}
+.nav{
+    display: flex;
+    background: #1D3557;
+   min-height: 70px;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+.Logo{
+    display: flex;
+    align-items: center;
+    
+}
+.Logo img{
+    height: 50px;
+    padding: 10px;
+}
+.nav_link{
+    color: silver;
+    text-decoration: none;
+    padding: 5px;
+    transition:  0.4s ease;
+}
+.nav_link:hover{
+    color: white;
+    font-size: 18px;
+}
+.Inicio{
+    background: #31587A;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    box-shadow: 0 0 15px 0 #457B9D;
+    text-align: center;
+}
+.Icon_inicio{
+    color: #A8DADC;
+    font-size: 150px;
+    width: 30%;
+}
+.Quienes_Somos{
+    background: #31587A;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    box-shadow: 0 0 15px 0 #457B9D;
+    text-align: center;
+}
+.icon_quienes_somos{
+    color: #A8DADC;
+    font-size: 150px;
+    width: 30%;
+}
+.Servicios{
+    background: #31587A;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 0 15px 0 #457B9D;
+    text-align: center;
+}
+.contenedor_servicios{
+    display: flex;
+}
+.Line{
+    color: silver;
+    background: silver;
+}
+.Icon_service{
+    text-align: center;
+    align-items: center;
+    margin: 0;
+    padding: auto;
+    font-size: 80px;
+    color: #A8DADC;
+}
+.text_service {
+    background: #31587A;
+    margin: 20px;
+    border-radius: 10px;
+    padding: 30px;
+    box-shadow: 0 0 15px 0 #1D3557;
+    text-align: center;
+    width: 50%;
+    transition: 0.3s ease-in;
+    font-size: 20px;
+}
+.text_service:hover {
+    background: #1D3557;
+}
+.More_Information_service{
+    background:  transparent;
+    width: 70%;
+    height: 50px;
+    color: silver;
+    border-color: #1D3557;
+    border-radius: 10px;
+    transition:  0.3s ease;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+}
+.More_Information_service:hover{
+    background:  #13233A;
+    width: 95%;
+    box-shadow:  0 0 8px 0 ;
+    font-size: 18px;
+}
+.Contactanos{
+    background: #31587A;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 15px;
+    align-items: center;
+    text-align: center;
+    box-shadow: 0 0 15px 0 #457B9D;
+    display: flex;
+}
+.form_contact{
+    width: 70%;
+}
+.form_information{
+    padding: 10px; 
+}
+.content_contact{
+    box-shadow: 0 0 15px 0 #457B9D;
+    padding: 20px;
+    border-radius: 10px;
+}
+.text_form{
+    background: none;
+    color: silver;
+    width: 80%;
+    height: 30px;
+    border: none;
+    border-bottom: 2px solid #1D3557 ;
+    text-align: center;
+    font-size: 16px;
+    transition: 0.3s ease;
+}
+.text_form:hover{
+    background: #1D3557;
+    width: 100%;
+    border-radius: 10px;
+}
+.text_form:in-range{
+    background: #1D3557;
+    width: 100%;
+    border-radius: 10px;
+}
+.Send_Form{
+    background:  transparent;
+    width: 70%;
+    height: 50px;
+    margin: 10px;
+    color: #fff  ;
+    border-color: #1D3557;
+    border-radius: 10px;
+    transition:  0.3s ease;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+}
+.Send_Form:hover{
+    background:  #13233A;
+    width: 95%;
+    box-shadow:  0 0 8px 0 ;
+    font-size: 18px;
+}
+.bt_icons{
+    color: #A8DADC;
+    background: transparent;
+    border:  none;
+    border-radius: 20px;
+    font-size: 30px;
+    color: silver;
+    padding: 10px;
+    transition:  0.3s ease;
+}
+.bt_icons:hover{
+    background: transparent;
+    border:  none;
+    border-radius: 20px;
+    font-size: 50px;
+    color: #13233A;
+    padding: 10px;
+    cursor: pointer;
+}
+.Encabezado{
+    background: #1D3557;
+    padding: 10px;
+}
+.Text_Encabezado{
+    text-align: center;
+    align-items: center;
+}
+@media screen and (max-width: 800px) {
+
+        .nav{
+            flex-direction: column;
+        }
+        .Inicio{
+            flex-direction: column;
+        }
+        .Quienes_Somos{
+            flex-direction: column;
+        }
+        .contenedor_servicios{
+           flex-direction: column;
+        }
+        .text_service{
+            width: 85%;
+            position: relative;
+            margin: 20px;
+        }
+        .Contactanos{
+            flex-direction: column;
+        }
+}
